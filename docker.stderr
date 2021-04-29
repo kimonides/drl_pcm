@@ -1,0 +1,2 @@
+Use of uninitialized value $who in scalar chomp at /usr/spec2006/Docs/sysinfo line 1059.
+Use of uninitialized value $who in concatenation (.) or string at /usr/spec2006/Docs/sysinfo line 1060.

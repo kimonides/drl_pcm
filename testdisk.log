@@ -1,0 +1,72 @@
+
+
+Mon Nov 30 10:14:32 2020
+Command line: TestDisk
+
+TestDisk 7.0, Data Recovery Utility, April 2015
+Christophe GRENIER <grenier@cgsecurity.org>
+http://www.cgsecurity.org
+OS: Linux, kernel 4.15.0-115-generic (#116-Ubuntu SMP Wed Aug 26 14:04:49 UTC 2020) x86_64
+Compiler: GCC 7.2
+ext2fs lib: 1.44.1, ntfs lib: libntfs-3g, reiserfs lib: none, ewf lib: none, curses lib: ncurses 6.0
+/dev/sda: LBA, HPA, LBA48, DCO support
+/dev/sda: size       3907029168 sectors
+/dev/sda: user_max   3907029168 sectors
+/dev/sda: native_max 3907029168 sectors
+/dev/sdb: LBA, HPA, LBA48, DCO support
+/dev/sdb: size       1953525168 sectors
+/dev/sdb: user_max   1953525168 sectors
+/dev/sdb: native_max 1953525168 sectors
+/dev/sdc: LBA, HPA, LBA48, DCO support
+/dev/sdc: size       5860533168 sectors
+/dev/sdc: user_max   5860533168 sectors
+/dev/sdc: native_max 5860533168 sectors
+Warning: can't get size for Disk /dev/mapper/control - 0 B - 0 sectors, sector size=512
+Hard disk list
+Disk /dev/sda - 2000 GB / 1863 GiB - CHS 243201 255 63, sector size=512 - WDC WD20EFRX-68EUZN0, S/N:WD-WCC4M6KZEUDP, FW:82.00A82
+Disk /dev/sdb - 1000 GB / 931 GiB - CHS 121601 255 63, sector size=512 - Samsung SSD 850 EVO 1TB, S/N:S21DNXAG803523W, FW:EMT01B6Q
+Disk /dev/sdc - 3000 GB / 2794 GiB - CHS 364801 255 63, sector size=512 - WDC WD30EFRX-68N32N0, S/N:WD-WCC7K6XE4VRF, FW:82.00A82
+
+Partition table type (auto): EFI GPT
+Disk /dev/sda - 2000 GB / 1863 GiB - WDC WD20EFRX-68EUZN0
+Partition table type: EFI GPT
+
+Interface Advanced
+hdr_size=92
+hdr_lba_self=1
+hdr_lba_alt=3907029167 (expected 3907029167)
+hdr_lba_start=34
+hdr_lba_end=3907029134
+hdr_lba_table=2
+hdr_entries=128
+hdr_entsz=128
+ 1 P MS Data                     2048 3907028991 3907026944
+     ext4 blocksize=4096 Large_file Sparse_SB, 2000 GB / 1863 GiB
+Partition table type (auto): EFI GPT
+Disk /dev/sdb - 1000 GB / 931 GiB - Samsung SSD 850 EVO 1TB
+Partition table type: EFI GPT
+
+Interface Advanced
+hdr_size=92
+hdr_lba_self=1
+hdr_lba_alt=1953525167 (expected 1953525167)
+hdr_lba_start=34
+hdr_lba_end=1953525134
+hdr_lba_table=2
+hdr_entries=128
+hdr_entsz=128
+ 1 P EFI System                  2048    1050623    1048576
+ 2 P Unknown                  1050624 1953521663 1952471040
+Partition table type (auto): None
+Disk /dev/sdc - 3000 GB / 2794 GiB - WDC WD30EFRX-68N32N0
+Partition table type: None
+
+Interface Advanced
+
+recover_EXT2: s_block_group_nr=0/22356, s_mnt_count=21/4294967295, s_blocks_per_group=32768, s_inodes_per_group=8192
+recover_EXT2: s_blocksize=4096
+recover_EXT2: s_blocks_count 732566646
+recover_EXT2: part_size 5860533168
+   P ext4                     0   0  1 364801  80 63 5860533168
+     ext4 blocksize=4096 Large_file Sparse_SB Recover, 3000 GB / 2794 GiB
+SIGINT detected! TestDisk has been killed.
